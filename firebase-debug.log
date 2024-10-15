@@ -1,0 +1,54 @@
+[debug] [2024-10-15T23:10:46.501Z] ----------------------------------------------------------------------
+[debug] [2024-10-15T23:10:46.503Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\asmod\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init --debug
+[debug] [2024-10-15T23:10:46.503Z] CLI Version:   13.22.0
+[debug] [2024-10-15T23:10:46.504Z] Platform:      win32
+[debug] [2024-10-15T23:10:46.504Z] Node Version:  v20.17.0
+[debug] [2024-10-15T23:10:46.504Z] Time:          Tue Oct 15 2024 19:10:46 GMT-0400 (Eastern Daylight Time)
+[debug] [2024-10-15T23:10:46.504Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-15T23:10:46.545Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-15T23:10:46.546Z] > authorizing via signed-in user (csemarten@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\asmod\Onedrive\documents\CarrieWork
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-10-15T23:10:52.641Z] Using project from CLI flag: ra243-a274a
+[debug] [2024-10-15T23:10:52.642Z] Checked if tokens are valid: true, expires at: 1729036189150
+[debug] [2024-10-15T23:10:52.642Z] Checked if tokens are valid: true, expires at: 1729036189150
+[debug] [2024-10-15T23:10:52.644Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ra243-a274a [none]
+[debug] [2024-10-15T23:10:52.961Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ra243-a274a 200
+[debug] [2024-10-15T23:10:52.962Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ra243-a274a {"projectId":"ra243-a274a","projectNumber":"843007565131","displayName":"ra243","name":"projects/ra243-a274a","resources":{"hostingSite":"ra243-a274a"},"state":"ACTIVE","etag":"1_cbf0bb32-7f87-4fd8-ba6d-87f0827a6f52"}
+[info] i  Using project ra243-a274a (ra243) 
+[info] 
+=== Hosting Setup
+[debug] [2024-10-15T23:10:52.968Z] Checked if tokens are valid: true, expires at: 1729036189150
+[debug] [2024-10-15T23:10:52.969Z] Checked if tokens are valid: true, expires at: 1729036189150
+[debug] [2024-10-15T23:10:52.969Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ra243-a274a [none]
+[debug] [2024-10-15T23:10:53.269Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ra243-a274a 200
+[debug] [2024-10-15T23:10:53.270Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ra243-a274a {"projectId":"ra243-a274a","projectNumber":"843007565131","displayName":"ra243","name":"projects/ra243-a274a","resources":{"hostingSite":"ra243-a274a"},"state":"ACTIVE","etag":"1_cbf0bb32-7f87-4fd8-ba6d-87f0827a6f52"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] i  build/404.html is unchanged 
+[debug] [2024-10-15T23:11:11.512Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-10-15T23:11:11.571Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
